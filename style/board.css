@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    font-family: 'hiragino Kaku ProN', 'メイリオ', sans-serif;
+}
+
+/* top
+ ===================================================== */
+.top {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.logo {
+    width: 472px;
+    height: 118px;
+}
+.user-info {
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+}
+.user-info p {
+    font-size: 1.2rem;
+    margin-right: 2rem;
+}
+.user-info input {
+    background: #ff0000;
+    color: #fff;
+    border-radius: 15px;
+    border: none;
+    height: 2rem;
+    width: 8rem;
+}
+
+/* header
+ ===================================================== */
+header {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+}
+.menu {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+}
+.menu li {
+    line-height: 50px;
+    color: white;
+    list-style: none;
+}
+
+/* main
+ ===================================================== */
+main {
+    display: flex;
+    justify-content: center;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 98%;
+}
+.board {
+    width: 70%;
+    margin-bottom: 40px;
+}
+.sidebar {
+    width: 27%;
+    margin-top: 15px;
+}
+
+/* board
+ ===================================================== */
+.board .title {
+    border-left: 5px solid black;
+    border-bottom: 1px solid black;
+}
+.board form {
+    padding: 1rem 0 1rem 2rem;
+    background: #fbfbfb;
+    border: 3px solid #ebebeb;
+}
+.form-title {
+    border-left: 4px solid red;
+    padding-left: 1rem;
+}
+.item {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+.err_message {
+    margin: 0.6rem 0 0 0;
+    font-size: 0.7rem;
+    color: red;
+}
+.submit {
+    background: #333;
+    color: #fff;
+    border-radius: 5px;
+    width: 5rem;
+}
+.text,
+textarea {
+    padding: 0.5rem;
+    margin-top: 1rem;
+    border: 1px solid #dfdfdf;
+    color: #999;
+    background: #fff;
+}
+.text {
+    width: 40%;
+}
+textarea {
+    width: 60%;
+}
+.content {
+    margin-top: 1rem;
+    padding: 1.2rem 1rem 1rem 1rem;
+    background: #fbfbfb;
+    border: 3px solid #ebebeb;
+}
+.content .meta {
+    font-size: 0.5rem;
+    margin: 0;
+}
+
+/* sidebar
+ ===================================================== */
+.sidebar h2 {
+    border-bottom: 1px dashed black;
+}
+.sidebar ul {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+.sidebar li {
+    list-style: none;
+    font-size: 14px;
+    margin: 10px 0;
+}
